@@ -7,13 +7,20 @@
     align-items: center;
     justify-content: space-around;
 
-    h1 {
-      font-size: 2rem;
-    }
-
-    span {
-      font-size: 1rem;
+    .text {
       font-weight: bold;
+
+      .name {
+        font-size: 2rem;
+      }
+
+      .profession {
+        font-size: 1rem;
+      }
+
+      .hello {
+        font-size: 1.5rem;
+      }
     }
   }
 }
