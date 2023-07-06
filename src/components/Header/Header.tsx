@@ -4,10 +4,10 @@ import {Navigation} from "../Navigation/Navigation";
 
 export const Header = () => {
   return (
-    <div className={`${style.header}`}>
-      <div className={`${style.headerContent} ${styleContainer.container}`}>
+    <header className={`${style.header}`}>
+      <div className={`${styleContainer.container} ${style.headerContent}`}>
         <Navigation/>
       </div>
-    </div>
+    </header>
   )
 }
