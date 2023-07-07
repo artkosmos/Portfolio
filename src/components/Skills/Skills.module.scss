@@ -1,18 +1,22 @@
 .skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   min-height: 100vh;
+
   background-color: rgb(220 20 60 / 30%);
 
   .skillsContent {
     .title {
-      margin-bottom: 100px;
+      margin: 0 0 100px;
       text-align: center;
     }
 
     .skillsWrapper {
       display: flex;
       flex-flow: row wrap;
-      gap: 40px;
-      align-content: space-around;
+      gap: 50px;
       justify-content: center;
     }
   }
