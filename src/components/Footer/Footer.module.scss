@@ -15,6 +15,7 @@
 
     .socialMediaWrapper {
       display: flex;
+      flex-flow: row wrap;
       gap: 30px;
       border: 1px solid;
 
