@@ -1,0 +1,21 @@
+.main {
+  padding-top: 250px;
+  flex: 1 1 auto;
+  background: url("img/dark-black-wood.png") repeat center;
+}
+
+@media (max-width: 1120px) {
+  .main {
+    padding-top: 220px;
+  }
+}
+
+@media (max-width: 850px) {
+  .main {
+    padding-top: 140px;
+  }
+}
+
+.main__container {
+}
+

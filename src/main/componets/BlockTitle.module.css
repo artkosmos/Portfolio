@@ -1,0 +1,21 @@
+.block_titles {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    color: rgba(245, 245, 245, 0.9);
+}
+@media (max-width: 1120px) {
+    .block_titles {
+        row-gap: 40px;
+    }
+}
+@media (max-width: 840px) {
+    .block_titles {
+        row-gap: 30px;
+    }
+}
+@media (max-width: 540px) {
+    .block_titles {
+        row-gap: 20px;
+    }
+}
