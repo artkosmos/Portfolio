@@ -5,6 +5,7 @@ import {Card} from "../componets/Card";
 import plan_pilot_preview from './img/planner_preview.png'
 import brain_decks_preview from './img/brain_decks_preview.png'
 import shelter_preview from './img/shelter_review.png'
+import uber_preview from './img/uber_preview.png'
 
 type ProjectPropsType = {
   id: string
@@ -34,7 +35,6 @@ export const Project = (props: ProjectPropsType) => {
             href={'https://brain-decks.vercel.app/'}
             hrefCode={'https://github.com/artkosmos/BrainDecks'}
           />
-
           <Card
             title={'Shelter'}
             img={shelter_preview}
@@ -43,7 +43,16 @@ export const Project = (props: ProjectPropsType) => {
             href={'https://artkosmos.github.io/Shelter/shelter/pages/main/main.html'}
             hrefCode={'https://github.com/artkosmos/Shelter'}
           />
-
+          <Card
+            title={'Uber'}
+            img={uber_preview}
+            text={'The landing designed for recruiting and managing taxi drivers in ' +
+              'the city of Moscow. It invites drivers with their own vehicles and ' +
+              'also describes the advantages of working with the company.'}
+            info={'Tech stack : HTML, CSS'}
+            href={'https://artkosmos.github.io/UBER-landing/src/index.html'}
+            hrefCode={'https://github.com/artkosmos/Uber-landing'}
+          />
         </div>
       </div>
     </div>
