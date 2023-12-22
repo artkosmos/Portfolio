@@ -5,7 +5,6 @@ import {Card} from "../componets/Card";
 import plan_pilot_preview from './img/planner_preview.png'
 import brain_decks_preview from './img/brain_decks_preview.png'
 import shelter_preview from './img/shelter_review.png'
-import connect_hub_preview from './img/connect_hub_preview.png'
 
 type ProjectPropsType = {
   id: string
@@ -22,7 +21,7 @@ export const Project = (props: ProjectPropsType) => {
             img={plan_pilot_preview}
             text={'This app is a place where you can create, edit and delete notes, ' +
               'keep them in active or complete status and divide into separate cards.'}
-            info={'Tech stack : JavaScript, TypeScript, React, Redux Toolkit, SCSS'}
+            info={'Tech stack : JavaScript, TypeScript, React, Redux Toolkit, React Router, SCSS'}
             href={'https://artkosmos.github.io/PlanPilot'}
             hrefCode={'https://github.com/artkosmos/PlanPilot'}
           />
@@ -31,7 +30,7 @@ export const Project = (props: ProjectPropsType) => {
             img={brain_decks_preview}
             text={'This app represents decks of cards that can be sorted, edited, added, or viewed by other users. ' +
               'Users can create cards with images, answers and questions and then study or guess these ones evaluate them. This makes a rating of cards.'}
-            info={'Tech stack : JavaScript, TypeScript, React, RTK Query, i18n, Storybook, Radix UI, SCSS'}
+            info={'Tech stack : JavaScript, TypeScript, React, RTK Query, React Router, React Hook Form, i18n, Storybook, Radix UI, SCSS'}
             href={'https://brain-decks.vercel.app/'}
             hrefCode={'https://github.com/artkosmos/BrainDecks'}
           />
