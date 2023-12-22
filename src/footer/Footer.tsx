@@ -8,7 +8,7 @@ import {SocialIcon} from "./social-icons/SocialIcon";
 
 export const Footer = () => {
   return (
-    <footer className={style.footer}>
+    <footer className={style.footer} id={'contacts'}>
       <div className={style.footer__container}>
         <div className={style.footer__body}>
           <BlockTitle title={'Contact Me'}/>

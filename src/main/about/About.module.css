@@ -27,8 +27,19 @@
 }
 
 .about__description {
-  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   flex-wrap: wrap;
+
+  .tech {
+    font-weight: 500;
+    color: rgba(245, 245, 245, 0.9);
+  }
+
+  .bold {
+    font-weight: 700;
+  }
 }
 
 .about__photo {

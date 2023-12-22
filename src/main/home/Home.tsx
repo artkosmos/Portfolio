@@ -6,21 +6,21 @@ import avatar_768 from './img/photo_768.jpg';
 
 
 export const Home = () => {
-    return (
-        <div className={style.main__body}>
-            <h1 className={style.main__title}>
-                <span>My name is</span>
-                <span className={style.main__title_gradient}>Artem Kosmatskov</span>
-                <span>I am a Frontend Developer</span>
-            </h1>
-            <div className={style.main__photo}>
-                <picture>
-                    <source srcSet={`${avatar_360} 360w, ${avatar_768} 768w`} type="image/webp"/>
-                    <img src={avatar} alt="My photo"/>
-                </picture>
-            </div>
-        </div>
-    );
+  return (
+    <div className={style.main__body}>
+      <h1 className={style.main__title}>
+        <span>My name is</span>
+        <span className={style.main__title_gradient}>Artem Kosmatskov</span>
+        <span>I am a Frontend Developer</span>
+      </h1>
+      <div className={style.main__photo}>
+        <picture>
+          <source srcSet={`${avatar_360} 360w, ${avatar_768} 768w`} type="image/webp"/>
+          <img src={avatar} alt="My photo"/>
+        </picture>
+      </div>
+    </div>
+  );
 };
 
 

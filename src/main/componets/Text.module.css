@@ -1,5 +1,4 @@
 .text {
-    flex: 0 1 600px;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.44;
@@ -30,6 +29,7 @@
 }
 .text__list li span{
     font-weight: 600;
+    color: #6b6a6a;
 }
 
 .text__education span {
