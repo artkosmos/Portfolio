@@ -6,6 +6,7 @@ import plan_pilot_preview from './img/planner_preview.png'
 import brain_decks_preview from './img/brain_decks_preview.png'
 import shelter_preview from './img/shelter_review.png'
 import uber_preview from './img/uber_preview.png'
+import swift_cash_preview from './img/swift_cash_preview.png'
 
 type ProjectPropsType = {
   id: string
@@ -34,6 +35,14 @@ export const Project = (props: ProjectPropsType) => {
             info={'Tech stack : JavaScript, TypeScript, React, RTK Query, React Router, React Hook Form, i18n, Storybook, Radix UI, SCSS'}
             href={'https://brain-decks.vercel.app/'}
             hrefCode={'https://github.com/artkosmos/BrainDecks'}
+          />
+          <Card
+            title={'SwiftCash'}
+            img={swift_cash_preview}
+            text={'Users can deposit or withdraw funds from his account or transfer funds to other users, and they will see it. ' +
+              'Also, users can observe his transactions and general statistics. Uses API written with MongoDB.'}
+            info={'Tech stack : HTML, SCSS, Javascript, NodeJS, Express.js, MongoDB'}
+            hrefCode={'https://github.com/artkosmos/SwiftCash'}
           />
           <Card
             title={'Shelter'}
